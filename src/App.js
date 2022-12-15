@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='w-full h-screen flex flex-col'>
       <Header></Header>
-      <div className='w-max-[1000px] mx-auto flex flex-col gap-16'>
+      <div className='w-max-[1000px] mx-auto flex flex-col gap-16 mt-36'>
         <Resume></Resume>
         <About></About>
         <Skills></Skills>

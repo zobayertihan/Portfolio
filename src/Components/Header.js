@@ -1,23 +1,24 @@
 import React from 'react';
+import { Link } from 'react-scroll'
 const Header = () => {
     return (
-        <header className="p-8 fixed w-full h-[80px]">
+        <header className="p-8 fixed w-full h-[80px] bg-[#2B3467]">
             <div className="mt-5 flex flex-row-reverse">
                 <ul className="items-stretch hidden space-x-3 lg:flex">
                     <li className="flex">
-                        <a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">Home</a>
+                        <Link to="resume" spy={true} smooth={true} duration={500} className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">Home</Link>
                     </li>
                     <li className="flex">
-                        <a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">About</a>
+                        <Link to="about" spy={true} smooth={true} duration={500} className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">About</Link>
                     </li>
                     <li className="flex">
-                        <a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">Skills</a>
+                        <Link to="skills" spy={true} smooth={true} duration={500} className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">Skills</Link>
                     </li>
                     <li className="flex">
-                        <a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">Projects</a>
+                        <Link to="projects" spy={true} smooth={true} duration={500} className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">Projects</Link>
                     </li>
                     <li className="flex">
-                        <a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">Contacts</a>
+                        <Link to="contacts" spy={true} smooth={true} duration={500} className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">Contacts</Link>
                     </li>
                 </ul>
                 <button className="p-4 lg:hidden">
