@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 const Header = () => {
     return (
         <header className="p-8 fixed w-full h-[80px] bg-[#2B3467]">
-            <div className="mt-5 flex flex-row-reverse">
+            <div className="flex flex-row-reverse">
                 <ul className="items-stretch hidden space-x-3 lg:flex">
                     <li className="flex">
                         <Link to="resume" spy={true} smooth={true} duration={500} className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent hover:text-violet-400 hover:border-violet-400">Home</Link>
